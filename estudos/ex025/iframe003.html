@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 200px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit eveniet in magni totam similique tempore quibusdam corporis amet debitis culpa officia, exercitationem enim nam consequatur quaerat possimus eligendi, ex aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum repellat labore fuga fugit natus possimus perspiciatis ipsum unde officia ab exercitationem at, beatae nesciunt, veritatis tempora nihil harum earum vitae.</P>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid at blanditiis aliquam nam corrupti dicta placeat ea suscipit minus, similique velit fugiat totam illum fugit ab beatae temporibus et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero soluta cum, reprehenderit molestias repellendus minima voluptatibus nisi labore fugit neque amet ipsam ratione. Porro necessitatibus inventore in sequi eum!</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo rerum eius recusandae eveniet dolorum cupiditate fugiat quaerat corrupti reprehenderit consequuntur amet, architecto delectus exercitationem similique non modi tempore, unde ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque beatae ducimus hic illo distinctio dolor maxime molestiae libero.</p><img src='imagens/mascote.png'>" >
+        <p>Seu navegador não suporta iframes.</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo rerum eius recusandae eveniet dolorum cupiditate fugiat quaerat corrupti reprehenderit consequuntur amet, architecto delectus exercitationem similique non modi tempore, unde ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque beatae ducimus hic illo distinctio dolor maxime molestiae libero. Magnam molestias aut atque neque fugit distinctio! Debitis soluta minima maxime.</p>
+</body>
+</html>
