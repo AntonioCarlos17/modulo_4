@@ -92,13 +92,21 @@
             <legend>Profissão</legend>
             <p>
             <label for="iprof">Profissão:</label>
-            <input type="text" name="prof" id="iprof" placeholder="Sua profissão">
+            <input type="text" name="prof" id="iprof" placeholder="Sua profissão" list="profi">
             <datalist id="profi">
                 <option value="Prog">Programador</option>
                 <option value="Ana Sis">Analista de Sistemas</option>
                 <option value="Eng de Soft">Engenheiro de Software</option>
                 <option value="Des Gráf">Designer Gráfico</option>
                 <option value="Adm de Rede">Administrador de Redes</option>
+            </datalist>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Mensagem</legend>
+            <p>
+                <label for="imsg">Dígite uma mensagem:</label><br>
+                <textarea name="msg" id="imsg" cols="50" rows="15"></textarea>
             </p>
         </fieldset>
         <p>
