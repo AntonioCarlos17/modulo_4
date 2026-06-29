@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!-- Acima de 3 mil kb precisa ultilizar o method="post", so usa o method="get" para dados menos sensíveis -->
+    <h1>Formulários</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Cores</legend>
+            <p>
+                <label for="icor">Cores:</label>
+                <input type="color" name="cor" id="icor" value="#00f100">
+            </p>
+            </fieldset>
+            <fieldset>
+                <legend>Satisfação</legend>
+            <p>
+                <label for="inivel">Nível de satisfação:</label>
+                <input type="range" name="nivel" id="inivel" min="1" max="10">
+            </p>
+            </fieldset>
+            <fieldset>
+                <legend>Arquivo</legend>
+                <p>
+                    <label for="ifoto">Foto de Perfil:</label>
+                    <input type="file" name="foto" id="ifoto">
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>
+</body>
+</html>
