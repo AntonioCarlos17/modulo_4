@@ -8,6 +8,19 @@
 
 html{
     font-family: 'courier new', courier, monospace;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5em;
+    text-align: justify;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content:'Esse documento foi impresso em: 02/07/2026';
+}
+
+article{
+    width: 100%;
 }

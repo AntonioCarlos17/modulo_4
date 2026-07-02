@@ -10,3 +10,51 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
+
+header{
+    background-color: lightslategray;
+}
+
+header h1{
+    text-align: center;
+}
+
+menu ul{
+    list-style: none;
+    background-color: gray;
+}
+
+menu ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+article{
+    width: 50%;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+article h2{
+    text-align: center;
+    padding: 10px;
+}
+
+article p{
+    padding: 10px;
+    text-indent: 20px;
+}
